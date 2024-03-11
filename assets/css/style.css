@@ -60,3 +60,14 @@ a{
     color: white;
     background-color: black;
 }
+
+h2 span{
+    font-size: 32px;
+}
+.board{
+    width: 500px;
+    height: 500px;
+    
+    border-radius: 30px;
+    box-shadow: -8px -8px 20px #2a333d,10px 7px 20px #475462;
+}
