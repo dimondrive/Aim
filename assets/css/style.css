@@ -67,7 +67,21 @@ h2 span{
 .board{
     width: 500px;
     height: 500px;
-    
+    position: relative;
     border-radius: 30px;
     box-shadow: -8px -8px 20px #2a333d,10px 7px 20px #475462;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #16d7e3;
+    position: absolute;
+    cursor: pointer;
+}
+.primary{
+    color: #16d7e3;
 }
